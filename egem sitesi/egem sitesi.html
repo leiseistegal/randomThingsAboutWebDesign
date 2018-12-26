@@ -17,7 +17,7 @@
 <p>Aşağıda onun bir fotoğrafını görebilirsiniz:</p>
 <img src="sakal.jpg" width="150" height="250">
 </ul>
-<p>O an sakallarını kestiğim için hiç mutlu değildi fakat bence <i>sehr schön</i> kesmiştim.</p>
+<p id="sakal">O an sakallarını kestiğim için hiç mutlu değildi fakat bence <i>sehr schön</i> kesmiştim.</p>
 <img src="smiley.gif" alt="gülücük" width="100" height="100">
 <p>Tamay çok yetenekli bir insan. Aşağıdaki fotoğrafta onun adeta beden bulmuş bir <b>tavla tanrısı</b> olduğunu net bir şekilde görebilirsiniz.</p>
 <img src="tavla.jpeg" alt="GOD OF TAVLA" width="200"height="250">
@@ -28,6 +28,13 @@
 <p>Velhasıl kelam ben onu 176<sup> 54968948</sup>sayısının büyüklüğünden daha çok seviyorum.</p> <hr> 
 <p>Beni dinlediğiniz için teşekkür ederim arkadaşlar. Herkes sütünü içip uyusun.</p>
 <img src="süt.jpeg" alt="arslan sütü" width="250" height="200">
-<p><a href="#top"></a></p>
+<p><a href="#top">bok</a></p>
+<script>
+
+let sakal = document.getElementById("sakal");
+sakal.addEventListener("click", function(){
+    alert("bana bak")
+})
+</script>
 </body>
 </html>
